@@ -3,6 +3,8 @@
 
 #pragma once
 
+#define WEAR_LEVELING_LOGICAL_SIZE 4096
+#define WEAR_LEVELING_BACKING_SIZE 8192
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
