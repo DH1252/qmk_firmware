@@ -5,6 +5,8 @@
 
 #define WEAR_LEVELING_LOGICAL_SIZE 4096
 #define WEAR_LEVELING_BACKING_SIZE 8192
+#define DEBOUNCE 3
+#define DEBUG_MATRIX_SCAN_RATE
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.

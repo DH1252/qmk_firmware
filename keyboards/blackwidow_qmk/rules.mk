@@ -1,4 +1,8 @@
 EEPROM_DRIVER = wear_leveling
 WEAR_LEVELING_DRIVER = embedded_flash
 KEY_LOCK_ENABLE = yes
-DEBOUNCE_TYPE = sym_eager_pr
+DEBOUNCE_TYPE = sym_defer_pr
+CONSOLE_ENABLE= yes
+MIDI_ENABLE = no
+KEYBOARD_SHARED_EP = yes
+COMMAND_ENABLE = yes
